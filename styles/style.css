@@ -32,6 +32,9 @@
   font-weight: 100;
   font-style: normal;
 }
+
+/* header style */
+
 .panda-main-header{
    max-width: 1280px;
    margin: 60px auto;
@@ -70,7 +73,7 @@
     border-radius: 66px;
     background: rgb(241, 241, 241);
     border-style: none;
-    padding: 12px;
+    padding: 25px;
 }
 .search-parent i{
     position: absolute;
@@ -117,4 +120,62 @@ text-align: left;
 .banner-tv-img{
     width: 380px;
     height: 320px;
+}
+
+/* categories Section Style */
+.categories{ 
+   max-width: 1212px;
+    height: 198px;
+    margin: 60px 117px;
+    display: block;
+}
+.categories-product{
+    display: flex;
+}
+.categories-header{
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.category-container {
+    display: flex;
+    justify-content: space-between;
+}
+.category-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 359px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 0px 40px 0px 40px;
+    gap: 77px;
+}
+.bg-gradient-yellow {
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+.bg-gradient-purple {
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.bg-gradient-blue {
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+.container-heading{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.watch-image{
+    width: 85px;
+    height: 85px;
+}
+.bag-image{
+    width: 85px;
+    height: 85px;
+}
+.shoe-image{
+    width: 85px;
+    height: 85px;
 }
