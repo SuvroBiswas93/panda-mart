@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.panda-main-header{
+   max-width: 1280px;
+   margin: 60px auto;
+}
+.panda-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    gap: 20px;
+}
+.panda-image{
+    cursor: pointer;
+}
+.header-list-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.header-list-items li{
+    list-style: none;
+}
+.header-list-items li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+}
+.search-parent{
+    position: relative;
+}
+.panda-search-bar{
+    width: 508.94px;
+    height: 48px;
+    border-radius: 66px;
+    background: rgb(241, 241, 241);
+    border-style: none;
+    padding: 12px;
+}
+.search-parent i{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
