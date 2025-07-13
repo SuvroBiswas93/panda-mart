@@ -2,7 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+}
+/* shared class */
+.primary-btn{
+    width: 168px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 20px 14px 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: white;
+    text-align: left;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    border-style: none;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 .panda-main-header{
    max-width: 1280px;
@@ -48,4 +76,45 @@
     position: absolute;
     top: 17px;
     right: 20px;
+}
+
+/* Banner style starts here*/
+.banner{
+    max-width: 1212px;
+    height:456px ;
+    margin: 60px 117px;
+    border-radius: 10px;
+    background: rgb(254, 234, 233);
+    padding: 38px;
+}
+.banner-content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.banner-heading{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 84px;
+    color: rgb(31, 31, 31);
+    margin-bottom: 8px;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 8px;
+    color: rgb(78, 78, 78);
+}
+.banner-price-tag{
+color: rgb(255, 19, 111);
+font-size: 35px;
+font-weight: 500;
+line-height: 62px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-tv-img{
+    width: 380px;
+    height: 320px;
 }
