@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 /* shared class */
 .primary-btn{
@@ -315,7 +316,6 @@
      width: 100%;
      outline: none;
      text-align: left;
-
 } 
 .footer-btn{
     border-top-left-radius: 0;
