@@ -240,7 +240,7 @@
     color: rgb(0, 0, 0);
     font-size: 24px;
     font-weight: 500;
-    /* margin: 16px 0px; */
+    margin: 8px 0px;
 }
 .shoe-card > p{
     display: flex;
@@ -255,5 +255,5 @@
 }
 .shoe-card-btn {
      background: black;
-    
+     margin-bottom: 8px;
 }
