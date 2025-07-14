@@ -5,21 +5,20 @@
 }
 /* shared class */
 .primary-btn{
-    width: 168px;
-    height: 52px;
+    width: 160px;
+    /* height: 52px; */
     justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 14px 20px 14px 20px;
+    /* align-items: center; */
+    padding: 14px 20px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
-    line-height: 19px;
+    /* line-height: 19px; */
     color: white;
     text-align: left;
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
     border-style: none;
-    margin-top: 8px;
+    /* margin-top: 8px; */
     border-radius: 5px;
 }
 .inter-font {
@@ -81,7 +80,7 @@
     right: 20px;
 }
 
-/* Banner style starts here*/
+/* Banner section style */
 .banner{
     max-width: 1212px;
     height:456px ;
@@ -110,12 +109,12 @@
     color: rgb(78, 78, 78);
 }
 .banner-price-tag{
-color: rgb(255, 19, 111);
-font-size: 35px;
-font-weight: 500;
-line-height: 62px;
-letter-spacing: 0%;
-text-align: left;
+    color: rgb(255, 19, 111);
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .banner-tv-img{
     width: 380px;
@@ -124,7 +123,7 @@ text-align: left;
 
 /* categories Section Style */
 .categories{ 
-   max-width: 1212px;
+    max-width: 1128px;
     height: 198px;
     margin: 60px 117px;
     display: block;
@@ -178,4 +177,83 @@ text-align: left;
 .shoe-image{
     width: 85px;
     height: 85px;
+}
+
+/* Shoes section style */
+.shoes{
+    max-width: 1128px;
+    height: 582px;
+    margin: 60px 117px;
+    border: 1px solid red;
+}
+.shoes-header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+
+}
+.shoes-heading{
+    color: rgb(31, 31, 31);
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+}
+.see-all{
+    color: rgb(255, 157, 0);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.shoes-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.shoe-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 496px;
+    /* margin-top: 20px; */
+    padding: 24px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+}
+.shoe-card > img {
+    height: 280px;
+    width: 180px;
+    object-fit: contain;
+    margin: 22px 0px;
+}
+.shoe-card > h4{
+    font-weight:600;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(31, 31, 31);
+    margin: 16px 0px;
+}
+.shoe-card > span{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    /* margin: 16px 0px; */
+}
+.shoe-card > p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(78, 78, 78);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+}
+.shoe-card-btn {
+     background: black;
+    
 }
