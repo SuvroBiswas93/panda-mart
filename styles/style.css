@@ -6,14 +6,13 @@
 /* shared class */
 .primary-btn{
     width: 160px;
-    /* height: 52px; */
+    height: 73px;
     justify-content: center;
     /* align-items: center; */
     padding: 14px 20px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
-    /* line-height: 19px; */
     color: white;
     text-align: left;
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
@@ -125,7 +124,7 @@
 .categories{ 
     max-width: 1128px;
     height: 198px;
-    margin: 60px 117px;
+    margin: 60px 117px 46px 117px;
     display: block;
 }
 .categories-product{
@@ -150,7 +149,7 @@
     height: 120px;
     border-radius: 10px;
     padding: 0px 40px 0px 40px;
-    gap: 77px;
+    gap: 25px;
 }
 .bg-gradient-yellow {
     background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
@@ -184,7 +183,7 @@
     max-width: 1128px;
     height: 582px;
     margin: 60px 117px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .shoes-header-items{
     display: flex;
@@ -257,3 +256,79 @@
      background: black;
      margin-bottom: 8px;
 }
+
+/* backpack styles starts here */
+
+.backpack{
+    max-width: 1128px;
+    height: 582px;
+    margin: 60px 117px;
+    /* border: 1px solid red; */
+}
+
+
+/* shoes and backpack common section style */
+
+.bags-backpack{
+    width: 1440px;
+    height: 1340px;
+    background: rgb(244, 244, 244);
+}
+
+/* footer style */
+
+.footer{
+     max-width: 1128px;
+     height:456px ;
+     background-color: #fff2f1;
+     text-align: center;
+     padding: 35px 20px;
+     margin: 71px auto;
+     border-radius: 15px;
+}
+.footer-content{
+     display: block;
+     justify-content: center;
+     align-items: center;
+     padding: 146px 264px;
+     margin: 0 auto;
+}
+.footer-heading{
+    margin: 4px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    font-size: 30px;
+    color: rgb(31, 31, 31);
+}
+.footer-paragraph{
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 4px 0px;
+    color: rgb(112, 112, 112);
+}
+.footer-input{
+     border: none;
+     height: 73px;
+     padding: 5px;
+     width: 100%;
+     outline: none;
+     text-align: left;
+
+} 
+.footer-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 24px;
+    height: 73px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+}
+.something{
+    display: flex;
+   
+}
+ 
