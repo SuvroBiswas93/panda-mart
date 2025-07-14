@@ -307,7 +307,7 @@
     align-items: center;
     font-size: 16px;
     font-weight: 500;
-    margin: 4px 0px;
+    margin-bottom: 15px;
     color: rgb(112, 112, 112);
 }
 .footer-input{
@@ -330,8 +330,14 @@
     text-align: center;
     margin: 0;
 }
-.something{
+/* .something{
     display: flex;
    
+} */
+.something form{
+    display: flex;
+    flex-direction: row;
+     justify-content: flex-end;
+     border: 1px solid red;
 }
  
